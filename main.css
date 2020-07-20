@@ -29,7 +29,9 @@ header {
 	align-items: flex-end;
 }
 
+/* ДОБИТЬ межстрочное расстояние */
 .contacts .phone_number {
+	line-height: 52px;
 	color: #767676;
 	font-size: 40px;
 	font-family: 'Open Sans Condensed', sans-serif;
