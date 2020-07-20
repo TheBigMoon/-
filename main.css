@@ -4,6 +4,10 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	background-color: #dcdcdc;
 	padding: 45px 15% 65px 15%;
@@ -11,6 +15,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
+	min-width: 70%;
 }
 
 .logo {
@@ -42,4 +47,42 @@ header {
 	font-weight: 700;
 	font-size: 24px;
 	border-bottom: 2px dashed #767676;
+}
+
+.menu {
+	background-color: #777777;
+	min-width: 980px;
+	padding: 10px;
+}
+
+.menu ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.menu ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	list-style: none;
+	font-size: 30px;
+	padding: 0 20px;
+	border-right: 2px solid white;
+}
+
+.menu ul li:last-child {
+  border-right: none;
+}
+
+.menu ul li a {
+	color: #ffffff;
+	border-bottom: 2px solid #777777;
+}
+
+.menu ul li a:hover {
+	border-bottom: 2px solid white;
 }
