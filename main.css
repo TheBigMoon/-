@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+header {
+	background-color: #dcdcdc;
+	padding: 45px 15% 65px 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.logo {
+	width: 273px;
+	height: 100px;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.contacts .phone_number {
+	color: #767676;
+	font-size: 40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contacts .feedback {
+	color: #767676;
+	font-weight: 700;
+	font-size: 24px;
+	border-bottom: 2px dashed #767676;
+}
