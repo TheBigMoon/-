@@ -248,10 +248,46 @@ header {
 }
 
 footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	background-color: #777777;
 	padding: 50px 15%;
 }
 
+footer .privacy p {
+	color: white;
+	font-size: 14px;
+}
 
+.footer_menu ul li{
+	list-style: none;
+}
+
+.footer_menu ul li a{
+	text-decoration: underline;
+	color: white;
+}
+
+footer .site_developers {
+	display: flex;
+	flex-direction: row;
+}
+
+.site_developers img {
+	width: 36px;
+	height: 38px;
+	margin-right: 10px;
+}
+
+.site_developers .site_developers_info p {
+	color: white;
+}
+
+.site_developers_info .underlined {
+	text-decoration: underline;
+	float: left;
+	margin-right: 5px; 
+}
 
 
