@@ -4,6 +4,11 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url(fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
 a {
 	text-decoration: none;
 }
