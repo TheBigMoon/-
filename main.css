@@ -9,13 +9,22 @@ a {
 }
 
 header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	background-color: #dcdcdc;
-	padding: 45px 15% 65px 15%;
+	padding: 45px 0 65px 0;
+	min-width: 1000px;
+	
+}
+
+.header_block {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
-	min-width: 70%;
+	padding: 0 10px;
+	min-width: 980px;
 }
 
 .logo {
@@ -36,7 +45,7 @@ header {
 
 /* ДОБИТЬ межстрочное расстояние */
 .contacts .phone_number {
-	line-height: 52px;
+	line-height: 45px;
 	color: #767676;
 	font-size: 40px;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -46,7 +55,8 @@ header {
 	color: #767676;
 	font-weight: 700;
 	font-size: 24px;
-	border-bottom: 2px dashed #767676;
+	text-decoration: underline;
+	text-decoration-style: dashed;
 }
 
 .menu {
