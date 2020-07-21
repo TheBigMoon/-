@@ -8,6 +8,11 @@ a {
 	text-decoration: none;
 }
 
+.wrapper {
+	min-height: 100vh;
+	margin-bottom: -200px;
+}
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -250,7 +255,7 @@ header {
 .about_us {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 200px;
+	padding-bottom: 400px;
 }
 
 .about_us .first_text {
@@ -263,6 +268,7 @@ footer {
 	justify-content: center;
 	background-color: #777777;
 	padding: 50px 0;
+	height: 100px;
 }
 
 .footer_block {
@@ -277,6 +283,8 @@ footer .privacy p {
 	color: white;
 	font-size: 14px;
 }
+
+
 
 .footer_menu ul li{
 	list-style: none;
@@ -307,5 +315,4 @@ footer .site_developers {
 	float: left;
 	margin-right: 5px; 
 }
-
 
