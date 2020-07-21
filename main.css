@@ -105,6 +105,10 @@ header {
 	padding-right: 5px;
 }
 
+.breadcrumbs .underlined {
+	text-decoration: underline;
+}
+
 .content {
 	margin-top: 20px;
 	padding: 0 15%;
