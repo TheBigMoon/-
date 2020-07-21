@@ -4,18 +4,36 @@
 	font-family: 'PT Sans', sans-serif;
 }
 
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url(fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf);
+}
+
 a {
 	text-decoration: none;
 }
 
+.wrapper {
+	min-height: 100vh;
+	margin-bottom: -200px;
+}
+
 header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	background-color: #dcdcdc;
-	padding: 45px 15% 65px 15%;
+	padding: 45px 0 65px 0;
+	min-width: 1000px;
+}
+
+.header_block {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-end;
-	min-width: 70%;
+	padding: 0 10px;
+	min-width: 980px;
 }
 
 .logo {
@@ -34,9 +52,8 @@ header {
 	align-items: flex-end;
 }
 
-/* ДОБИТЬ межстрочное расстояние */
 .contacts .phone_number {
-	line-height: 52px;
+	line-height: 45px;
 	color: #767676;
 	font-size: 40px;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -46,13 +63,14 @@ header {
 	color: #767676;
 	font-weight: 700;
 	font-size: 24px;
-	border-bottom: 2px dashed #767676;
+	text-decoration: underline;
+	text-decoration-style: dashed;
 }
 
 .menu {
 	background-color: #777777;
 	min-width: 980px;
-	padding: 10px;
+	padding: 25px 0;
 }
 
 .menu ul {
@@ -60,7 +78,8 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	min-width: 980px;
+	margin: 0 10px;
 }
 
 .menu ul li {
@@ -75,11 +94,12 @@ header {
 }
 
 .menu ul li:last-child {
-  border-right: none;
+	border-right: none;
 }
 
 .menu ul li a {
 	color: #ffffff;
+	line-height: 30px;
 	border-bottom: 2px solid #777777;
 }
 
@@ -193,11 +213,11 @@ header {
 	width: 210px;
 	color: #767676;
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .product_item .bottom_part {
-	margin-top: 60px;
+	margin-top: 55px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -240,7 +260,7 @@ header {
 .about_us {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 200px;
+	padding-bottom: 400px;
 }
 
 .about_us .first_text {
@@ -250,15 +270,26 @@ header {
 footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: #777777;
-	padding: 50px 15%;
+	padding: 50px 0;
+	height: 100px;
+}
+
+.footer_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 10px;
+	min-width: 980px;
 }
 
 footer .privacy p {
 	color: white;
 	font-size: 14px;
 }
+
+
 
 .footer_menu ul li{
 	list-style: none;
@@ -289,5 +320,4 @@ footer .site_developers {
 	float: left;
 	margin-right: 5px; 
 }
-
 
