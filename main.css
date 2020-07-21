@@ -52,7 +52,7 @@ header {
 .menu {
 	background-color: #777777;
 	min-width: 980px;
-	padding: 15px 10px;
+	padding: 10px;
 }
 
 .menu ul {
@@ -60,6 +60,7 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	padding: 10px;
 }
 
 .menu ul li {
@@ -90,4 +91,171 @@ header {
 	width: 100%;
 	height: 400px;
 	background-color: #9AB7BD;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.breadcrumbs {
+	display: flex;
+	flex-direction: row;
+	padding: 10px 15%;
+}
+
+.breadcrumbs p {
+	color: #767676;
+	font-size: 14px;
+	padding-right: 5px;
+}
+
+.content {
+	margin-top: 20px;
+	padding: 0 15%;
+	display: flex;
+	flex-direction: row;
+}
+
+.side_menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width: 200px;
+}
+
+.side_menu .category {
+	font-size: 18px;
+	color: #767676;
+}
+
+.side_menu .category:hover {
+	text-decoration: underline;
+}
+
+.side_menu .category.underlined {
+	text-decoration: underline;
+}
+
+.side_menu ul li {
+	margin-left: 20px;
+}
+
+.side_menu .subcategory {
+	font-size: 14px;
+	color: #767676;
+}
+
+.side_menu .subcategory:hover {
+	text-decoration: underline;
+}
+
+.side_menu .subcategory.chosen {
+	text-decoration: underline;
+	color: #010101;
+}
+
+.price_list_block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 110px;
+}
+
+.price_list_block p {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.center_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.product_block {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product_item {
+	display: inline-table;
+	background-color: #dcdcdc;
+	padding: 20px;
+	margin: 0 15px 20px 0;
+	margin-bottom: 20px;
+}
+
+.item_description {
+	width: 210px;
+	color: #767676;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.product_item .bottom_part {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bottom_part .item_price {
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 60px;
+}
+
+.bottom_part img {
+	margin-right: 15px;
+}
+
+.paginator {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 15px 0 60px 0;
+	margin-bottom: 30px;
+	border-bottom: 1.5px solid #777777;
+}
+
+.paginator button{
+	outline: none;
+	background: none;
+	border: none;
+	color: #767676;
+	font-size: 14px;
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.paginator .chosen{
+	font-size: 18px;
+}
+
+.about_us {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 200px;
+}
+
+.about_us .first_text {
+	margin-right: 40px;
+}
+
+footer {
+	background-color: #777777;
+	padding: 50px 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
