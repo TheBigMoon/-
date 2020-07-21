@@ -15,7 +15,6 @@ header {
 	background-color: #dcdcdc;
 	padding: 45px 0 65px 0;
 	min-width: 1000px;
-	
 }
 
 .header_block {
@@ -43,7 +42,6 @@ header {
 	align-items: flex-end;
 }
 
-/* ДОБИТЬ межстрочное расстояние */
 .contacts .phone_number {
 	line-height: 45px;
 	color: #767676;
@@ -62,7 +60,7 @@ header {
 .menu {
 	background-color: #777777;
 	min-width: 980px;
-	padding: 10px;
+	padding: 25px 0;
 }
 
 .menu ul {
@@ -70,7 +68,8 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	min-width: 980px;
+	margin: 0 10px;
 }
 
 .menu ul li {
@@ -85,11 +84,12 @@ header {
 }
 
 .menu ul li:last-child {
-  border-right: none;
+	border-right: none;
 }
 
 .menu ul li a {
 	color: #ffffff;
+	line-height: 30px;
 	border-bottom: 2px solid #777777;
 }
 
@@ -203,11 +203,11 @@ header {
 	width: 210px;
 	color: #767676;
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .product_item .bottom_part {
-	margin-top: 60px;
+	margin-top: 55px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -260,9 +260,17 @@ header {
 footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: #777777;
-	padding: 50px 15%;
+	padding: 50px 0;
+}
+
+.footer_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 10px;
+	min-width: 980px;
 }
 
 footer .privacy p {
